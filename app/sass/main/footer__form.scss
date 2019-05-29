@@ -1,0 +1,55 @@
+.footer__form {
+    min-height: 740px;
+    max-height: 1350px;
+    height: 100%;
+
+    background-image: url("../img/bg-footer-form.png");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+}
+
+.footer__form-container {
+    padding: 25px 0;
+}
+
+.footer__form-wrap {
+    position: relative;
+
+    min-height: 740px;
+    max-height: 1350px;
+    height: 100%;
+
+    background-image: url("../img/bg2-footer-form.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.footer__form-wrap::before {
+    position: absolute;
+    content: "";
+
+    top: -40px;
+    right: 50px;
+
+    width: 972px;
+    height: 415px;
+
+    background-image: url("../img/footer-cloud1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__form-wrap::after {
+    position: absolute;
+    content: "";
+
+    bottom: 170px;
+    left: 180px;
+
+    width: 972px;
+    height: 415px;
+
+    background-image: url("../img/footer-cloud1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}

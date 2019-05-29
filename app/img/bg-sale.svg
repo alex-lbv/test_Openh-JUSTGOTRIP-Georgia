@@ -1,0 +1,20 @@
+<svg width="204" height="204" viewBox="0 0 204 204" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<path d="M25 98L29.4811 91.6464L26.1571 84.6197L31.6691 79.1497L29.6284 71.6601L36.003 67.221L35.3087 59.5L42.3566 56.2391L43.0087 48.497L50.5194 46.5194L52.497 39.0087L60.2391 38.3566L63.5 31.3087L71.221 32.003L75.6601 25.6284L83.1497 27.6691L88.6197 22.1571L95.6464 25.4811L102 21L108.354 25.4811L115.38 22.1571L120.85 27.6691L128.34 25.6284L132.779 32.003L140.5 31.3087L143.761 38.3566L151.503 39.0087L153.481 46.5194L160.991 48.497L161.643 56.2391L168.691 59.5L167.997 67.221L174.372 71.6601L172.331 79.1497L177.843 84.6197L174.519 91.6464L179 98L174.519 104.354L177.843 111.38L172.331 116.85L174.372 124.34L167.997 128.779L168.691 136.5L161.643 139.761L160.991 147.503L153.481 149.481L151.503 156.991L143.761 157.643L140.5 164.691L132.779 163.997L128.34 170.372L120.85 168.331L115.38 173.843L108.354 170.519L102 175L95.6464 170.519L88.6197 173.843L83.1497 168.331L75.6601 170.372L71.221 163.997L63.5 164.691L60.2391 157.643L52.497 156.991L50.5194 149.481L43.0087 147.503L42.3566 139.761L35.3087 136.5L36.003 128.779L29.6284 124.34L31.6691 116.85L26.1571 111.38L29.4811 104.354L25 98Z" fill="url(#paint0_linear)"/>
+</g>
+<defs>
+<filter id="filter0_d" x="0" y="0" width="204" height="204" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="12.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="102" y1="21" x2="102" y2="175" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F7B512"/>
+<stop offset="1" stop-color="#F47D16"/>
+</linearGradient>
+</defs>
+</svg>

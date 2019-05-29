@@ -1,0 +1,161 @@
+.nav-tabs .nav-link {
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-bottom: 4px solid #F7A612;
+}
+
+.nav-tabs .nav-item {
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+
+.nav-item__title {
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: $brown;
+}
+
+.nav-item__text {
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    color: $gray-tab;
+}
+
+//content
+.tab__content-left { 
+    flex: 1;
+}
+
+.tab__content-right {
+    flex: 1;
+    text-align: right;
+}
+
+.tab__content-title-wrap {
+    margin-bottom: 20px;
+}
+
+.tab__content-date-text {
+    margin: 0;
+
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+
+    color: $brown;
+}
+
+.tab__content-title-text {
+    margin: 0;
+
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+
+    color: $brown;
+}
+
+.tab__content-time-table {
+    margin-bottom: 25px;
+}
+
+.tab__content-days {
+    margin-right: 20px;
+}
+
+.tab__content-days-image {
+    width: 141px;
+    height: auto;
+}
+
+.tab__content-text {
+    margin: 0;
+
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+
+    color: $brown;
+}
+
+.tab__content-description {
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    line-height: 30px;
+
+    color: $brown;
+}
+
+//mobile
+@media (min-width: 320px) and (max-width: 767.9px) {
+    .tab__content-wrap {
+        flex-direction: column;
+    }
+    .tab__content-title-wrap {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .tab-content {
+        padding-top: 50px;
+    }
+
+    .tab__content-days {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .tab__content-right {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .carousel-control__wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+//tablet
+@media (min-width: 768px) and (max-width: 1199.9px) {
+    .tab__content-wrap {
+        flex-direction: column;
+    }
+    .tab__content-title-wrap {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .tab-content {
+        padding-top: 50px;
+    }
+
+    .tab__content-days {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .tab__content-right {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .carousel-control__wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

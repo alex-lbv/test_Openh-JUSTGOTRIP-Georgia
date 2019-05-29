@@ -1,0 +1,98 @@
+.numbers {
+    margin-bottom: 125px;
+}
+
+.numbers__title-wrap {
+    text-align: center;
+}
+
+.numbers__title {
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: $orange;
+}
+
+.numbers__title-text-wrap {
+    margin-top: -30px;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+.numbers__title-text {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+
+    color: $brown;
+}
+
+.numbers__list {
+    padding: 0;
+
+    list-style: none;
+}
+
+.numbers__item {
+    width: 215px;
+
+    text-align: center;
+}
+
+.numbers__item-sum-wrap {
+    margin-bottom: 20px;
+}
+
+.numbers__item-sum {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: $orange;
+}
+
+.numbers__item-text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: $brown;
+}
+
+//mobile
+@media (min-width: 320px) and (max-width: 767.9px) {
+    .numbers {
+        margin-bottom: 50px;
+    }
+
+    .numbers__list {
+        flex-direction: column;
+    }
+
+    .numbers__item {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
+
+//tablet
+@media (min-width: 768px) and (max-width: 1199.9px) {
+    .numbers {
+        margin-bottom: 75px;
+    }
+
+    .numbers__list {
+        flex-direction: column;
+    }
+
+    .numbers__item {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}

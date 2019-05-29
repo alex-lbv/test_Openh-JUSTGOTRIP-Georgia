@@ -1,0 +1,24 @@
+.container--logo {
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+
+.container--tour-form {
+    max-width: none;
+
+    background-image: url("../img/tour-form-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+//mobile
+@media (min-width: 320px) and (max-width: 767.9px) {
+    .container--main-description {
+        max-width: none;
+    }
+
+    .footer__form-container {
+        max-width: none;
+    }
+}

@@ -1,0 +1,109 @@
+.order-wrap {
+    padding: 30px 80px;
+
+    text-align: center;
+    background: $white;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
+}
+
+.order-wrap__title-wrap {
+    margin-bottom: 20px;
+}
+
+.order-wrap__title {
+    display: inline-block;
+
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+
+    color: $brown;
+}
+
+.order-wrap__number-wrap {
+    margin-bottom: 30px;
+}
+
+.order-wrap__number {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 40px;
+
+    font-size: 100px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: $brown;
+}
+
+.order-wrap__number::before {
+    position: absolute;
+    content: "";
+
+    bottom: 0;
+    left: 10px;
+
+    width: 87px;
+    height: 1px;
+    
+    background-color: $border-color;
+}
+
+.order-wrap__button-wrap {
+    margin-bottom: 20px;
+}
+
+.order-wrap__button {
+    display: inline-block;
+    padding: 16px 0;
+
+    width: 100%;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $white;
+
+    background: $gradient-3;
+    border-radius: 100px;
+}
+
+.order-wrap__button:hover {
+    color: white;
+
+    background: $gradient-hover;
+    text-decoration: none;
+}
+
+.order-wrap__link {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+
+    color: $dark-orange;
+}
+
+.order-wrap__link:hover {
+    color:  $orange-hover;
+}
+
+//mobile
+@media (min-width: 320px) and (max-width: 767.9px) {
+    .order-wrap {
+        padding: 30px 20px;
+    }
+}
+
+//tablet
+@media (min-width: 768px) and (max-width: 1199.9px) {
+    .order-wrap {
+        padding: 30px 200px;
+    }
+}

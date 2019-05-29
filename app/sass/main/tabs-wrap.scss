@@ -1,0 +1,191 @@
+.tabs-wrap {
+    width: 100%;
+    max-width: 484px;
+    min-height: 470px;
+    height: auto;
+    margin: auto;
+    padding: 40px 0;
+
+    background-color: $white;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+}
+
+/* Стили для списка вкладок */
+.tab-header {
+    margin: 0;
+    padding-left: 0;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    list-style: none;
+}
+
+  /* Стили для вкладки */
+.tab-header__item {
+    position: relative;
+    padding: 15px 50px;
+    padding-bottom: 10px;
+
+    color:#696969;
+
+    background: #FBFBFB;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+}
+
+.tab-header__item-text {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tab-header__item-one {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.tab-header__item-two {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+  /* Стили для активной вкладки */
+.tab-header__item.active {
+    position: relative;
+
+    color: $white;
+    background: linear-gradient(0deg, #F69115, #F69115), linear-gradient(0deg, #E8E8E8, #E8E8E8), linear-gradient(0deg, #E8E8E8, #E8E8E8), #E8E8E8;
+    border: 1px solid #F69115;
+    box-sizing: border-box;
+}
+
+.tab-header__item:hover {
+    opacity: 0.7;
+}
+
+/* Стиль для списка контейнеров с содержимым вкладок */
+.tab-content {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+}
+  
+  /* Стили для контейнера с содержимым вкладки */
+  .tab-content__item {
+    padding: 0 40px;
+    display: none;
+}
+  
+  /* Стили для активного контейнера вкладки */
+  .tab-content__item.active {
+    display: block;
+}
+
+.tab__container {
+    text-align: center;
+}
+
+.tab__title {
+    margin: 0;
+
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+}
+
+.tab__text {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #696969;
+}
+
+.tab__text-orange {
+    color: $orange;
+}
+
+.tab__button {
+    display: inline-block;
+    padding: 16px 0;
+
+    width: 100%;
+    max-width: 250px;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $white;
+
+    background: $gradient-3;
+    border-radius: 100px
+}
+
+.tab__button:hover {
+    color: white;
+    text-decoration: none;
+    background: $gradient-hover;
+}
+
+.tab__content-number-slide {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    color: #CFCFCF;
+}
+
+//mobile
+@media (min-width: 320px) and (max-width: 767.9px) {
+    .tabs-wrap {
+        padding: 40px 0;
+    }
+
+    .tab-header__item {
+        padding: 20px 15px;
+    }
+
+    .tab-header__item-text {
+        line-height: normal;
+    }
+
+    .tab__title {
+        line-height: 40px;
+    }
+
+    .tab__content-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .tab__content-number-slide-wrap {
+        margin-bottom: 30px;
+    }
+}
+
+//tablet
+@media (min-width: 768px) and (max-width: 1199.9px) {
+    .tab__content-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .tab__content-number-slide-wrap {
+        margin-bottom: 30px;
+    }
+}

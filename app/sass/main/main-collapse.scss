@@ -1,0 +1,23 @@
+.collapsed {
+    background: $white;
+}
+
+.collapsed .card-content__arrow {
+    transform: rotate(0);
+}
+
+.collapsed .card-content__arrow-item {
+    fill: $orange;
+}
+
+.collapsed  .card-content__arrow-border {
+    stroke: $orange;
+}
+
+.collapsed  .card-content__text-header {
+    color: $gray-dark;
+}
+
+.collapsed  .card-content__title {
+    color: $brown;
+}

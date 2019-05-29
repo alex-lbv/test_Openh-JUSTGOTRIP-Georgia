@@ -1,0 +1,137 @@
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
+    margin-bottom: 10px;
+    border: none;
+}
+
+.card-header {
+    padding: 0;
+}
+
+.card-content {
+  align-items: center;
+}
+
+.card-content__title-wrap {
+    margin-right: 15px;
+    min-width: 231px;
+    text-align: left;
+}
+
+.card-content__title {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #2E2E2E;
+}
+
+.card-content__text-header-wrap {
+    align-self: center;
+}
+
+.card-content__text-header {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #696969;
+}
+
+.card-btn__active {
+    background: linear-gradient(97.96deg, #F7AD12 12.87%, #F58316 94.66%);
+}
+
+.card-btn__active  .card-content__title,
+.card-btn__active  .card-content__text-header {
+    color: white;
+}
+
+.card-body {
+    position: relative;
+    padding-left: 55px;
+    padding-right: 55px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        width: 0px;
+        height: 0px;
+        border-top: 25px solid transparent;
+        border-right: 25px solid rgba(0,0,0,0.08);
+    }
+}
+
+.card-btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 20px;
+
+    width: 100%;
+
+    text-decoration: none;
+    border: none;
+    background-color: $orange;
+}
+
+.card-content__arrow {
+    transform: rotate(180deg);
+}
+
+.card-content__arrow-item {
+    fill: $white;
+}
+
+.card-content__arrow-border {
+    stroke: $white;
+}
+
+.card-content__text-header {
+    margin: 0;
+
+    color: $white;
+}
+
+.card-content__text-header-separator {
+    margin-right: 15px;
+}
+
+.card-content__title {
+    color: $white;
+}
+
+//mobile
+@media (min-width: 320px) and (max-width: 767.9px) {
+    .card-content__title-wrap {
+        min-width: 0;
+    }
+
+    .card-content__title {
+        font-size: 25px;
+    }
+
+    .card-content__text-header {
+        display: none;
+    }
+
+    .card-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+//tablet
+@media (min-width: 768px) and (max-width: 1199.9px) {
+    .card-content__title-wrap {
+        min-width: 0;
+    }
+
+    .card-content__text-header {
+        display: none;
+    }
+}

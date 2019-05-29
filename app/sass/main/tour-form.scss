@@ -1,0 +1,19 @@
+.tour-form {
+    display: flex;
+    min-height: 800px;
+}
+
+//mobile
+@media (min-width: 320px) and (max-width: 767.9px) {
+    .tour-form{
+        
+        margin-bottom: 50px;
+    }
+}
+
+//tablet
+@media (min-width: 768px) and (max-width: 1199.9px) {
+    .tour-form {
+       
+    }
+}
