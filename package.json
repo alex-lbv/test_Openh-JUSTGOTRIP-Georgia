@@ -22,7 +22,7 @@
     "gulp-svgstore": "^7.0.1",
     "gulp-uglifyjs": "^0.6.2",
     "gulp-webp": "^4.0.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "magnific-popup": "^1.1.0",
     "posthtml-include": "^1.2.0",
     "slick-carousel": "^1.8.1"
